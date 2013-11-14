@@ -1,2 +1,13 @@
-<h1>Pages#under_construction</h1>
-<p>Find me in app/views/pages/under_construction.html.erb</p>
+<div class="container">
+    <div class="logo_banner">
+        <%= image_tag 'logo_banner.png' %>
+        <%= image_tag 'under_construction.png', class: 'under_construction' %>
+    </div>
+
+    <div class="icons">
+        <%= link_to image_tag('facebook.png'), 'https://www.facebook.com/SeventeaStudios', target: '_blank' %>
+        <%= link_to image_tag('youtube.png'), 'http://www.youtube.com/user/SeventeaStudios', target: '_blank' %>
+        <%= mail_to 'someone@domain.com', image_tag('contact.png'), target: '_blank' %>
+        <%= link_to image_tag('portfolio.png'), '/files/SeventeaPortfolio2013.pdf', target: '_blank' %>
+    </div>
+</div>
