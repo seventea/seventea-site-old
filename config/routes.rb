@@ -1,6 +1,6 @@
 SeventeaSite::Application.routes.draw do
 
-  get "pages/under_construction"
+  root 'pages#under_construction'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
