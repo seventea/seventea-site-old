@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require magnific-popup
 //= require_tree .
+
+$(document).ready(function() {
+    $('.image-popup').magnificPopup({
+        type: 'image'
+    });
+});
