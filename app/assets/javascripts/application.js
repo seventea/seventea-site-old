@@ -17,6 +17,9 @@
 //= require_tree .
 
 $(document).ready(function() {
+    $('.video-popup').magnificPopup({
+        type: 'iframe'
+    });
     $('.image-popup').magnificPopup({
         type: 'image'
     });
